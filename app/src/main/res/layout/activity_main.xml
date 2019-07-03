@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/nameAuthor"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="@string/name"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorAccent"
+        android:textSize="36sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.658"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.22" />
+
+    <Button
+        android:id="@+id/button"
+        android:background="@color/colorlightprime"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_margin="100dp"
+        android:layout_gravity="center"
+        android:text="Change1"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="352dp" />
+    <TextView
+        android:id="@+id/nameAuthor"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="@string/seperate"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorlightprime"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.658"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.22" />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_margin="100dp"
+        android:layout_gravity="center"
+        android:background="@color/colorlightprime"
+        android:text="Change2"
+        android:textColor="@color/colorsecondary"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="352dp" />
+    />
+
+</android.support.v7.widget.LinearLayoutCompat>
